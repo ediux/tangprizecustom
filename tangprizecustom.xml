@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="yes"?>
+<ew-extension name="唐獎教育基金會系統客製模組" type="Tang Prize Customization" author="Edward Huang">
+    <!-- Copy all subfolders and files -->
+    <control id="app" type="copy" ifiles="app" />
+	<control id="smblib" type="simple" action="add" ifiles="SMBClient.cs" ofolderid="_src" />
+	<control id="sqlkataext" type="simple" action="add" ifiles="SqlKataExtension.cs" ofolderid="_src" />
+</ew-extension>

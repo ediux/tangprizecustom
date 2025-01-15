@@ -1,0 +1,33 @@
+{
+  "name": "tangprizecustom",
+  "version": "20.3.0",
+  "description": "唐獎教育基金會系統客製模組",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ediux/tangprizecustom.git"
+  },
+  "keywords": [
+    "tangprize",
+    "custom",
+    "mods"
+  ],
+  "author": "Edward Huang",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/ediux/tangprizecustom/issues"
+  },
+  "homepage": "https://github.com/ediux/tangprizecustom#readme",
+  "aspnetmaker": "extension",
+  "peerDependencies": {
+    "@aspnetmaker/core": "~20.3.0",
+    "@aspnetmaker/aspnet2023": "~20.3.0",	
+	"@aspnetmaker/klicustom": "~20.3.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}

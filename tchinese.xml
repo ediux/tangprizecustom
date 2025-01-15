@@ -1,0 +1,106 @@
+﻿<?xml version="1.0"?>
+<ew-language version="24.6.0" id="en-US" desc="Tang Prize Customization" author="Edward Huang">
+    <global>
+        <!-- Note: Parent element named by extension name is mandatory! -->
+		<phrase id="tp_flow_tpagent_subject_format" value="{0}將{1}設定為代理人" />
+		<phrase id="stringtoolong" value="超過字數限制" />
+		<phrase id="model_insert_function_not_found" value="找不到插入資料到資料庫的類別方法（InsertAsync）!" />
+		<phrase id="model_update_function_not_found" value="找不到更新資料庫的類別方法（UpdateAsync）!" />
+		<!--ERROR CODE: 1000-1999 簽核流程引擎-->
+		<phrase id="error_1001_0000" value="無法回寫狀態至對應表單欄位，%action%失敗！" />
+		<phrase id="error_1001_0001" value="無法取得目前簽核狀態資訊，%action%失敗！" />
+		<phrase id="error_1002_0000" value="Class“%classname%”does not exist" />
+		<phrase id="error_1003_0000" value="查無審核歷程資料！無法更新簽核狀態，流程終止！" />
+		<phrase id="error_1004_0000" value="無法取得申請單記錄！流程終止！" />
+		<phrase id="error_1005_0000" value="無法取得子流程資訊，子流程送件失敗！" />
+		<phrase id="error_1006_0000" value="無法取得表單資料！子流程送件失敗！" />
+		<phrase id="error_1007_0000" value="%subFlowName%:表單資料有誤或沒有符合的關卡條件!請檢查流程設定是否正確？" />
+		<phrase id="error_1008_0000" value="無法取得申請單記錄！%action%失敗！" />
+		<phrase id="error_1009_0000" value="Timed Hosted Windows Service is stopping." />
+		<phrase id="error_1010_0000" value="找不到申請者欄位資訊！" />
+		<phrase id="error_1011_0000" value="{0}（單號：{1}）於關卡「{2}」找不到可簽核人員，流程中止！故送審失敗！" />
+		<phrase id="error_1012_0000" value="發生錯誤！因為簽核流程地圖已毀損，無法進行流程作業！" />
+		<phrase id="error_1013_0000" value="找不到{0}關卡{1}的Post Scripting腳本" />
+		<!--ERROR CODE: 4000-4999 人事管理-->
+		<phrase id="error_4001_0000" value="申請失敗！無法取得離職申請人資訊！" />
+		<phrase id="error_4002_0000" value="無法取得申請單資訊" />
+		<phrase id="error_4003_0000" value="查無此公差單" />
+		<!--ERROR CODE: 5000-5999 出勤管理-->
+		  <phrase id="error_5001_0000" value="該出差日期已申請過，請勿重複申請" />
+		  <phrase id="error_5002_0000" value="加班至少需一小時" />
+		  <phrase id="error_5003_0000" value="依據勞基法，上班日不得加班超過4小時" />
+		  <phrase id="error_5004_0000" value="依據勞基法，非工作日不得加班超過12小時" />
+		  <phrase id="error_5005_0000" value="例假日不得申請加班！" />
+		  <phrase id="error_5006_0000" value="請輸入%s！" />
+		  <phrase id="error_5007_0000" value="%s格式有誤！" />
+		<!--提示資訊代碼 ERROR CODE:10000-10999 庫存管理-->
+		<phrase id="error_10000_0000" value="申請數量不能超過庫存數量" />
+		<!--錯誤例外狀況(未定義) ERROR CODE:9999-->
+		<phrase id="error_9999_0000" value="發生未預期的錯誤！" />
+		<phrase id="error_9999_0001" value="發生未預期的錯誤！（%s）" />
+		<phrase id="error_9999_0002" value="發生未預期的錯誤！（%s %stacktrace）" />
+		<phrase id="error_9999_0003" value="發生未預期的錯誤！%action%失敗！" />
+		<phrase id="error_9999_0004" value="發生未預期的錯誤！%action%失敗！（%s）" />
+		<phrase id="error_9999_0005" value="發生未預期的錯誤！%action%失敗！（%s %stacktrace）" />
+		<phrase id="error_9999_0006" value="發生未預期的資料庫錯誤！" />
+		<phrase id="error_9999_0007" value="發生未預期的資料庫錯誤！%errormessage%" />
+		<phrase id="error_9999_0008" value="查無資料" />
+		<phrase id="error_9999_action_0001" value="撤單" />
+		<!--提示資訊代碼 INFO CODE:1000-1999 簽核流程引擎-->
+		<phrase id="info_1000_0000" value="Consume Scoped Service Hosted Windows Service running." />
+		<phrase id="info_1000_0001" value="Consume Scoped Service Hosted Service is stopping." />
+		<phrase id="info_1001_0000" value="%username%撤回“%subject%”（單號：%applyno%），原因：%reason%" />
+		<phrase id="info_1002_0000" value="您有一筆待審核" />
+		<phrase id="info_1003_0000" value="公文：{0}（公文編號：{1}）！" />
+		<phrase id="info_1003_0001" value="公文" />
+		<phrase id="info_1004_0000" value="案件（作業：{0}，單號：{1}）！" />
+		<phrase id="info_1004_0001" value="{0}（單號：{1}）" />	
+		<phrase id="info_1005_0000" value="{0}申請{1}（單號：{2}）" />
+		<phrase id="info_1005_0001" value="{0}（單號：{1})" />
+		<phrase id="info_1006_0000" value="{0}已核准！" />
+		<phrase id="info_1007_0000" value="{0}已由{1}退回！" />
+		<phrase id="info_1008_0000" value="{0}已由{1}建立會辦流程成功！" />
+		<phrase id="info_1009_0000" value="{0}提出{1}申請作業（單號：{2}）" />
+		<phrase id="info_1010_0000" value="{0}提出{1}作業（公文編號：{2}）" />
+		<phrase id="info_1011_0000" value="申請單號：{0} 已成功寫入流程審核歷程資料!" />
+		<phrase id="info_1012_0000" value="{0}「{1}」送審成功!（公文編號：{2}）" />
+		<phrase id="info_1013_0000" value="{0}申請「{1}」成功!（申請單號：{2}）" />
+		<phrase id="info_1014_0000" value="進入下個關卡：{0}" />
+		<phrase id="info_1015_0000" value="進入決行關卡：{0}，執行結束流程作業！" />
+		<phrase id="info_1016_0000" value="更新流程資料表：{0}" />
+		<phrase id="info_1017_0000" value="準備執行{0}關卡{1}的{2}腳本" />
+		<phrase id="info_1018_0000" value="執行{0}關卡{1}的{2}腳本成功" />
+		<phrase id="info_1019_0000" value="系統自動略過" />
+		<!--提示資訊代碼 INFO CODE:6000-6999 公文管理-->
+		<phrase id="info_6001_0000" value="（密不錄由）" />
+		<phrase id="info_6002_0000" value="撤回" />
+		<phrase id="info_6002_0001" value="分文" />
+		<phrase id="info_6002_0002" value="展延" />
+		<phrase id="info_6002_0003" value="結案" />
+		<phrase id="info_6003_0000" value="Word匯出（簽）" />
+		<phrase id="info_6003_0001" value="Word匯出（函稿）" />
+		<phrase id="info_6003_0002" value="Word匯出（開會通知）" />
+		<phrase id="info_6003_0003" value="Word匯出（通用）" />
+		<phrase id="info_6004_0000" value="請輸入作廢原因" />
+		<phrase id="info_6004_0001" value="作廢成功" />
+		<phrase id="info_6004_0002" value="作廢失敗" />
+		<!--提示資訊代碼 INFO CODE:8000-8999 核銷作業-->
+		<phrase id="info_8000_0000" value="對帳" />
+		<phrase id="info_8001_0000" value="送財務部" />
+		<phrase id="info_8001_0001" value="取消%s" />
+		<phrase id="info_8002_0000" value="撤回" />
+		<phrase id="info_8003_0000" value="列印" />
+		<!--提示資訊代碼 INFO CODE:10000-10999 庫存管理-->
+		<phrase id="info_10000_0000" value="領用" />
+		<phrase id="info_10000_0001" value="取消%s" />
+		<phrase id="info_10001_0000" value="報廢" />
+		<phrase id="info_10001_0001" value="取消%s" />
+		<phrase id="info_10002_0000" value="申請數量不能超過庫存數量" />
+		<!--共用區-->
+		<phrase id="datalost" value="（資料遺失）" />
+		<phrase id="info_9999_0000" value="作業失敗" />
+		<phrase id="info_9999_0001" value="作業成功" />
+        <tangprizecustom>
+        </tangprizecustom>
+    </global>
+</ew-language>
